@@ -1,0 +1,253 @@
+html body{
+    margin:0;
+}
+.gul{
+    width:500px;
+    height:730px;
+    position:relative ;
+    margin:5px 5px;
+    border:2px solid #777;
+    box-shadow:10px 10px 50px 10px DodgerBlue inset;
+    background:black;
+    border:5px solid black;
+    border-radius:10px;
+}
+.g1,.g2,.g3,.g4,.g5,.g6,.g7{
+    width:100px;
+    height:140px; 
+    padding:10px;    
+    background#eee;        
+    border-radius:20px;
+    position:absolute;
+}
+.g1{
+
+    z-index:1;
+         top:60px;
+          left:30px;
+           transform:rotate(-40deg);
+    
+}
+.g1:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  
+}
+
+    
+.g2{
+    z-index:2;
+         top:40px; 
+          right:250px;
+          transform:rotate(-10deg);
+        
+  
+       
+}
+.g2:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  
+}
+.g3{
+    z-index:6; 
+    top:320px;
+    right:30px;
+    transform:rotate(110deg);
+    
+}
+.g3:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+   
+ 
+}
+
+.g4{
+    z-index:3;
+    top:50px;
+    right:150px;
+    transform:rotate(25deg);
+
+}
+.g4:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  
+}
+.g5{
+    z-index:7;
+    top:410px;
+    right:80px;
+    transform:rotate(130deg);
+    
+}
+.g5:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  
+  
+}
+.g6{
+    z-index:5;
+    top:210px; 
+    right:20px; 
+    transform:rotate(80deg);
+    
+}
+.g6:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+   
+  
+}
+.g7{
+    z-index:4;
+    top:110px; 
+    right:60px;
+    transform:rotate(50deg);
+    
+}
+.g7:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+   
+ 
+}
+.l,.w,.o,.n,.d,.e,.r,.s{
+    position:absolute;
+    font-weight:bold;
+    font-family:cursive;
+    font-size:30px;
+}
+.l{
+    top:270px;
+    left:200px; 
+    color:grey;
+    transform:rotate(0deg);
+
+}
+.w{ top:210px;
+    left:130px; 
+    color:grey;
+    transform:rotate(-40deg);
+    animation:ak 7s infinite  linear reverse;
+animation-delay:0s;
+    }
+    
+.o{
+     top:210px;
+    left:190px; 
+    color:grey;
+    transform:rotate(-10deg);
+    animation:ak 7s infinite  linear reverse;
+animation-delay:1s;
+}
+.n{
+     top:210px;
+    left:240px; 
+    color:grey;
+    transform:rotate(10deg);
+        animation:ak 7s infinite  linear reverse;
+animation-delay:2s;
+}
+.d{
+     top:240px;
+    left:280px; 
+    color:grey;
+    transform:rotate(25deg);
+        animation:ak 7s infinite  linear reverse;
+animation-delay:3s;
+}
+.e{
+     top:285px;
+    left:300px; 
+    color:grey;
+    transform:rotate(80deg);
+        animation:ak 7s infinite  linear reverse;
+animation-delay:4s;
+}
+.r{
+     top:330px;
+    left:305px; 
+    color:grey;
+    transform:rotate(110deg);
+        animation:ak 7s infinite  linear reverse;
+animation-delay:5s;
+}
+.s{
+     top:390px;
+    left:280px; 
+    color:grey;
+    transform:rotate(130deg);
+        animation:ak 7s infinite  linear reverse;
+animation-delay:6s;
+}
+@keyframes ak{
+    0%{color:transparent ;}
+    100%{
+        color:grey;
+    }
+}
+
+.lab{ position:absolute;
+font-weight:bold;
+color:gold;
+font-size:30px;
+top:640px;
+font-family:cursive;
+animation-name:follow;
+animation-iteration-count:infinite ;
+animation-duration:2s;
+animation-direction:alternate;
+animation-timing-function:linear;
+    
+}
+@keyframes follow{
+    0%{color:gold;
+    font-size:10px;
+    font-weight:bold;}
+    50%{
+        color:grey;
+    font-size:20px;
+    font-weight:bold;
+    }
+    100%{
+        color:lightgreen;
+    font-size:30px;
+    font-weight:bold;
+    }
+}
+.f1,.f2,.f3{
+    position:absolute;
+    width:80;
+    height:40px;
+    top:680px;
+}
+.f1{
+    left:180px;
+}
+.f2{
+    left:240px;
+}
+.f3{
+    left:300px;
+}
+.ref{position:absolute;
+font-weight:bold;
+color:gold;
+font-size:10px;
+top:97%;
+font-family:cursive;
+left:80%;
+animation-name:name;
+animation-iteration-count:infinite ;
+animation-duration:2s;
+animation-direction:alternate;
+animation-timing-function:linear;    
+    
+}
+@keyframes name{
+    0%{
+        color:gold;
+        
+    }
+    100%{
+        color:grey;
+        font-size:15px;
+        left:70%;
+    }
+}
